@@ -1,0 +1,173 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #ffffff;
+}
+
+.topmenu {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #384250;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    position: relative;
+}
+
+nav a {
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 21px;
+    color: #ffffff;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+main {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 35px;
+    color: #384250;
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.container a {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 270px;
+    flex-basis: 270px;
+    max-width: 700px;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+.container a img {
+    height: 100%;
+    width: 100%;
+}
+
+#toppic {
+    max-width: 100%;
+    height: auto;
+}
+
+.redstuff {
+    border: 0;
+    margin-top: 10px;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+    height: 30px;
+    width: 159px;
+    background-color: #f44336;
+    color: white;
+    font-size: 14px;
+}
+
+#home {
+    font-size: 30px;
+    margin: 1px 1px 1px 1px;
+}
+
+#about {
+    line-height: 1.5;
+    padding: 30px;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+#portfolio {
+    border-top-style: solid;
+}
+
+#feedback {
+    border-top-style: solid;
+    line-height: 1.5;
+    padding: 30px;
+}
+
+#contact {
+    border-top-style: solid;
+    line-height: 1.5;
+    padding: 30px;
+}
+
+input[type=text], input[type=email] {
+    width: 30%;
+    padding: 12px 20px;
+    font-size: 14px;
+    margin: 8px 0;
+    border-color: #d6d6d6;
+}
+
+footer {
+    background-color: #384250;
+    width: 100%;
+    display: inline-block;
+    padding-top: 23px;
+}
+
+#foot {
+    margin-left: 15px;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 21px;
+    color: #ffffff;
+}
+
+#foot ul {
+    list-style: none;
+}
